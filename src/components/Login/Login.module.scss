@@ -1,0 +1,38 @@
+
+.form{
+    display: flex;
+    flex-direction: column;
+   text-align: center;
+   margin-top: 100px;
+   align-items: center;
+  
+
+}
+
+.Login{
+    font-size: 20px;
+    margin-bottom: 15px;
+
+}
+.Pass{
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+.Subm{
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+.btn{
+    width: 100px;
+    height: 30px;
+}
+
+.regInfo{
+    max-width: 500px;
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+   text-align: center;
+   padding: 30px;
+
+}

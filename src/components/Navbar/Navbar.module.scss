@@ -1,0 +1,27 @@
+.nav{
+    grid-area: n;
+     background-color: rgb(9, 25, 87);
+    padding: 20px; 
+min-height: 100vh;
+display: flex;
+flex-direction: column;
+text-align: left;
+    }
+
+     .item  {
+       >a{
+        color: rgb(255, 252, 252);
+        text-decoration: none;
+        font-family: cursive;
+        font-size: 23px;
+       }
+        
+    }
+
+.item a.active {
+        color: rgba(7, 3, 255, 0.852);
+    } 
+    .active {
+        color: rgba(7, 3, 255, 0.852);
+        cursor: default;
+    }

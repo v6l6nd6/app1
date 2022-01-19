@@ -1,0 +1,56 @@
+
+.header{
+    grid-area: h;
+    background-color: rgb(30, 36, 60);
+    position: relative;
+    width: 100%; 
+    }
+    .imgheader{
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    height: 60%;
+    width: 50px;
+  
+    >img{
+        display: flex;
+        
+    }
+      
+    }
+
+    .linkLogin{
+        display: flex;
+       justify-content: right;
+      text-align: center;
+      align-items: center;
+      align-self: center;
+    }
+    .linkLogin a {
+        text-decoration: none;
+        color: white;
+        font-size: 23px;
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: 700;
+    }
+
+    .loginBtn{
+        width: 100px;
+        height: 40px;
+        background-color: rgb(252, 247, 237);
+        border-radius: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 15px;
+        font-weight: 600;
+        margin-top: 20px;
+        margin-right: 20px;
+    }
+
+    .LoginLabel{
+      margin-top: 20px;
+      margin-right: 40px;
+
+    }
